@@ -1,20 +1,10 @@
 <img src="/docs/stocksight.png?raw=true" alt="stocksight" />
 
-[![License](https://img.shields.io/github/license/shirosaidev/stocksight.svg?label=License&maxAge=86400)](./LICENSE)
-[![Release](https://img.shields.io/github/release/shirosaidev/stocksight.svg?label=Release&maxAge=60)](https://github.com/shirosaidev/stocksight/releases/latest)
-[![Sponsor Patreon](https://img.shields.io/badge/Sponsor%20%24-Patreon-brightgreen.svg)](https://www.patreon.com/shirosaidev)
-[![Donate PayPal](https://img.shields.io/badge/Donate%20%24-PayPal-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLF223XAS4W72)
-
 # stocksight
 Stock market analyzer and stock predictor using Elasticsearch, Twitter, News headlines and Python natural language processing and sentiment analysis. How much do emotions on Twitter and news headlines affect a stock's price? Let's find out...
 
 ## About
 stocksight is an open source stock market analysis software that uses Elasticsearch to store Twitter and news headlines data for stocks. stocksight analyzes the emotions of what the author writes and does sentiment analysis on the text to determine how the author "feels" about a stock. It could be used for more than finding sentiment of just stocks, it could be used to find sentiment of anything...
-
-
-## Slack workspace
-Join the conversation, get support, etc on [stocksight Slack](https://join.slack.com/t/stocksightworkspace/shared_invite/enQtNzk1ODI0NjA3MTM4LTA3ZDA0YzllOGNiM2I5ZjAzYWM2MjNmMjI0OTRlY2ZjYTk1NmM5YmEwMmMwOTE2OTNiMGZlNzdjZmZkM2RjM2U).
-
 
 ## Requirements
 - Python 3.x
@@ -32,15 +22,9 @@ Join the conversation, get support, etc on [stocksight Slack](https://join.slack
 ### Download
 
 ```shell
-$ git clone https://github.com/shirosaidev/stocksight.git
+$ git clone https://github.com/hopeman1102/NLP_StockSight
 $ cd stocksight
 ```
-[Download latest version](https://github.com/shirosaidev/stocksight/releases/latest)
-
-## Screenshot
-Stocksight Kibana dashboard
-<img src="https://github.com/shirosaidev/stocksight/blob/master/docs/stocksight-dashboard-kibana.png?raw=true" alt="stocksight kibana dashboard" />
-
 
 ## Install - Docker
 
